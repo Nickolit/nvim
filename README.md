@@ -12,7 +12,9 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-    use 'wbthomason/packer.nvim'  
+
+  use 'wbthomason/packer.nvim'
+    
 end)
 # 4 - in opened in nvim plugins.lua make :so and :PackerSync - then ZZ (save the file and quit nvim)
 # 5 - delete the "end)" from plugins lua and copy from plugins.bak all what goes after " use 'wbthomason/packer.nvim' ", dont copy " use require("rose-pine").setup() " under the vim.cmd [[packadd packer.nvim]] !!!
