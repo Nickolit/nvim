@@ -12,7 +12,7 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-  use 'wbthomason/packer.nvim'
+    use 'wbthomason/packer.nvim'
     
 end)
 # 4 - in opened in nvim plugins.lua make :so and :PackerSync - then ZZ (save the file and quit nvim)
